@@ -17,8 +17,6 @@ Manual Un-Installation:
  - Select correct folder (eg: cd c:\temp\).
  - Execute ..\Un-Install_SQL_2012.cmd 
 
-----
-
 Ver. 1.3.0.1
 ---------
 
@@ -36,8 +34,6 @@ Manual Un-Installation:
 - Execute ..\Un-Install_SQL_2008.cmd or ..\Un-Install_SQL_2008_x86.cmd (**Run as Administrator**)
 - **Start** SQL Server Integration Services (HOW TO: Control Panel>Administrative Tools>Services>right-click SQL Server Integration Services>Start)
 
-----
-
 Ver. 1.2.x.x
 ---------
 
@@ -54,9 +50,8 @@ Manual Un-Installation:
 - Execute ..\Un-Install_SQL_2008.cmd or ..\Un-Install_SQL_2005.cmd
 - **Start** SQL Server Integration Services (HOW TO: Control Panel>Administrative Tools>Services>right-click SQL Server Integration Services>Start)
 
-----
-
-**Ver. 1.0.0.2**
+Ver. 1.0.0.2
+---------
 
 * This version support only zip format.
 * This versione support only SQL SERVER 2005.
