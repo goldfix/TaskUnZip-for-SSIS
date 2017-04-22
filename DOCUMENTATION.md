@@ -69,16 +69,3 @@ Manual Un-Installation:
 - Execute ..\TaskUnZip\TaskUnZip\bin\Debug\Un-Install.cmd
 - **Start** SQL Server Integration Services (HOW TO: Control Panel>Administrative Tools>Services>right-click SQL Server Integration Services>Start)
 
-MSI Installation:
-
-- **Stop** SQL Server Integration Services (HOW TO: Control Panel>Administrative Tools>Services>right-click SQL Server Integration Services>Stop)
-- Execute TaskUnZip_Setup.msi
-- Open Visual Studio and **Add** in "Control Flow Items" TaskUnZip (select _TaskUnZip_ from list)
-- **Start** SQL Server Integration Services (HOW TO: Control Panel>Administrative Tools>Services>right-click SQL Server Integration Services>Start)
-
-MSI Un-Installation:
-
-- Open Visual Studio and **Remove** in "Control Flow Items" TaskUnZip (de-select _TaskUnZip_ from list)
-- **Stop** SQL Server Integration Services (HOW TO: Control Panel>Administrative Tools>Services>right-click SQL Server Integration Services>Stop)
-- Uninstall TaskUnZip_Setup.msi
-- **Start** SQL Server Integration Services (HOW TO: Control Panel>Administrative Tools>Services>right-click SQL Server Integration Services>Start)
