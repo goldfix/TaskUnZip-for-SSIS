@@ -3,7 +3,7 @@
 Open Console
 
 * For Manual Installation:
-## De-Compress file zip in your folder (eg: c:\temp\).
+De-Compress file zip in your folder (eg: c:\temp\).
 ## Open Console (not use Visual Studio or SQL Server Console) "**Run as Administrator**".
 ## Select correct folder (eg: cd c:\temp\).
 ## Execute ..\Install_SQL_2012.cmd
