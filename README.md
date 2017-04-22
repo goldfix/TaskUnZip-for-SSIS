@@ -16,6 +16,9 @@ Features:
 
 Download last release here: https://github.com/goldfix/TaskUnZip-for-SSIS/releases
 
+![Small donation is appreciated](https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif)
+_**[Small donation is appreciated](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YE9C3W8Z9D8E2)**_ :-)
+
 Thanks to:
 
 * http://icsharpcode.github.io/SharpZipLib/
@@ -31,5 +34,3 @@ Thanks to:
 pietro partescano
 
 * http://donotexists.blogspot.it/
-
-_**[Small donation is appreciated](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YE9C3W8Z9D8E2)**_ :-)
