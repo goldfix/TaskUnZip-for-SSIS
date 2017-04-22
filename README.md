@@ -1,5 +1,3 @@
-Simple Task for SSIS (SQL Server Integration Services) to manage, compress and decompress file ZIP/TAR/GZ. 
-
 Features:
 
 * Support to ZIP, TAR and TAR / GZ archive.
@@ -18,7 +16,7 @@ Features:
 
 Download last release here: https://github.com/goldfix/TaskUnZip-for-SSIS/releases
 
-Small donation is appreciated 
+Small donation is appreciated ![Small donation is appreciated ](https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif)
 
 Thanks to:
 
