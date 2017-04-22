@@ -2,19 +2,19 @@ Simple Task for SSIS (SQL Server Integration Services) to manage, compress and d
 
 Features:
 
--- Support to ZIP, TAR and TAR / GZ archive.
--- Compress single file or entire folders and / or sub folders.
--- Decompress all or singles files.
--- Encrypt with password zip file.
--- Insert Comment to zip file.
--- Verify archive file before extraction and after compression.
--- Support file ZIP >= 4GB.
--- Configure 'Type Store Paths'
--- Support to variables
--- Support SQL Server 2014 (ver. 1.5.*)
--- Support SQL Server 2012 (ver. 1.4.*)
--- Support SQL Server 2008 / R2 (x86 and x64) (ver. 1.3.0.1)
--- Support SQL Server 2005 (ver. 1.2.0.0)
+* Support to ZIP, TAR and TAR / GZ archive.
+* Compress single file or entire folders and / or sub folders.
+* Decompress all or singles files.
+* Encrypt with password zip file.
+* Insert Comment to zip file.
+* Verify archive file before extraction and after compression.
+* Support file ZIP >= 4GB.
+* Configure 'Type Store Paths'
+* Support to variables
+* Support SQL Server 2014 (ver. 1.5.*)
+* Support SQL Server 2012 (ver. 1.4.*)
+* Support SQL Server 2008 / R2 (x86 and x64) (ver. 1.3.0.1)
+* Support SQL Server 2005 (ver. 1.2.0.0)
 
 Small donation is appreciated 
 
