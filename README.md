@@ -1,3 +1,5 @@
+*[Small donation is appreciated](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YE9C3W8Z9D8E2)* :-)
+
 Features:
 
 * Support to ZIP, TAR and TAR / GZ archive.
@@ -15,8 +17,6 @@ Features:
 * Support SQL Server 2005 (ver. 1.2.0.0)
 
 Download last release here: https://github.com/goldfix/TaskUnZip-for-SSIS/releases
-
-Small donation is appreciated ![Small donation is appreciated ](https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif)
 
 Thanks to:
 
