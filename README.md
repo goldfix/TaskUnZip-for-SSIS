@@ -1,5 +1,3 @@
-*[Small donation is appreciated](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YE9C3W8Z9D8E2)* :-)
-
 Features:
 
 * Support to ZIP, TAR and TAR / GZ archive.
@@ -33,3 +31,5 @@ Thanks to:
 pietro partescano
 
 * http://donotexists.blogspot.it/
+
+_**[Small donation is appreciated](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YE9C3W8Z9D8E2)**_ :-)
