@@ -1,0 +1,115 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="1/2/2016 1:18:11 PM"
+  DTS:CreationName="SSIS.Package.3"
+  DTS:CreatorComputerName="GOLDFIXPCV"
+  DTS:CreatorName="GOLDFIXPCV\goldfix"
+  DTS:DTSID="{FBF4D38B-2137-4959-B0C0-43290908A9A7}"
+  DTS:ExecutableType="SSIS.Package.3"
+  DTS:LastModifiedProductVersion="11.0.6020.0"
+  DTS:LocaleID="1040"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="16"
+  DTS:VersionGUID="{5EE592A7-17AC-435F-A429-B68C89FAE1A1}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">6</DTS:Property>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{0D0708C6-A665-4D9B-BAC1-9CCA14692B99}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="source_folder">
+      <DTS:VariableValue
+        DTS:DataType="8">c:\tmp\Test_Images\</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{477D2109-8F74-456F-977F-88C66F566940}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="var_filter">
+      <DTS:VariableValue
+        DTS:DataType="8">.jpg</DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\TaskUnZip 2012"
+      DTS:CreationName="ProgettoMultimedia.TaskUnZip_2012.TaskUnZip, ProgettoMultimedia.TaskUnZip_2012, Version=1.4.6.0, Culture=neutral, PublicKeyToken=08d5a3e5c5e98dbc"
+      DTS:Description="TaskUnZip 2012"
+      DTS:DTSID="{6DE24F32-8E6E-48D3-8F4C-749DF4525D2E}"
+      DTS:ExecutableType="ProgettoMultimedia.TaskUnZip_2012.TaskUnZip, ProgettoMultimedia.TaskUnZip_2012, Version=1.4.6.0, Culture=neutral, PublicKeyToken=08d5a3e5c5e98dbc"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="TaskUnZip 2012"
+      DTS:TaskContact="TaskUnZip: https://taskunzip.codeplex.com/"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <InnerObject>
+          <AddRootFolder
+            Type="11"
+            Value="0" />
+          <Comment
+            Type="8"
+            Value="" />
+          <FileZip
+            Type="8"
+            Value="zz" />
+          <FolderDestination
+            Type="8"
+            Value="c:\tmp\" />
+          <FolderSource
+            Type="8"
+            Value="@[User::source_folder]" />
+          <OverwriteZipFile
+            Type="11"
+            Value="-1" />
+          <Password
+            Type="8"
+            Value="" />
+          <RecurseSubFolder
+            Type="11"
+            Value="-1" />
+          <RegExFileFilter
+            Type="8"
+            Value="@[User::var_filter]" />
+          <StorePaths
+            Type="3"
+            Value="2" />
+          <TestArchive
+            Type="11"
+            Value="-1" />
+          <TypeCompression
+            Type="3"
+            Value="1" />
+          <TypeOperation
+            Type="3"
+            Value="1" />
+        </InnerObject>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="sql11">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="157,42"
+          Id="Package\TaskUnZip 2012"
+          TopLeft="246,185" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

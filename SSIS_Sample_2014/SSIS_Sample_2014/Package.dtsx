@@ -1,0 +1,48 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="3/29/2015 12:47:13 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="GOLDFIXPCV"
+  DTS:CreatorName="GOLDFIXPCV\goldfix"
+  DTS:DTSID="{CA9D834C-EC87-45C7-BBC2-DDBBFAABD7C1}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="13.0.1601.5"
+  DTS:LocaleID="1040"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:ProtectionLevel="2"
+  DTS:VersionBuild="126"
+  DTS:VersionGUID="{9BF70E46-F5CF-48A8-A9C8-7B717908DA58}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{39888E1C-8560-437C-A5DF-CCC42F5B58AA}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="Variable">
+      <DTS:VariableValue
+        DTS:DataType="8">.jpg</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{790852E9-40B7-421D-873E-169DD0B70737}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="var_dest_folder">
+      <DTS:VariableValue
+        DTS:DataType="8">c:\tmp\Test_Images\</DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
+  <DTS:Executables />
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="sql12">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

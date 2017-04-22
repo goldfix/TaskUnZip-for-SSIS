@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4E9C70A6-B236-402E-B720-E8F7561088EF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProgettoMultimedia.TaskUnZip_2014</RootNamespace>
+    <AssemblyName>ProgettoMultimedia.TaskUnZip_2014</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SqlServer.Dts.Design, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SQLServer.ManagedDTS, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\icsharpcode-sharpziplib\src\bzip2\BZip2.cs">
+      <Link>ICSharpCode.SharpZLib\BZip2.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\bzip2\BZip2Constants.cs">
+      <Link>ICSharpCode.SharpZLib\BZip2Constants.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\bzip2\BZip2Exception.cs">
+      <Link>ICSharpCode.SharpZLib\BZip2Exception.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\bzip2\BZip2InputStream.cs">
+      <Link>ICSharpCode.SharpZLib\BZip2InputStream.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\bzip2\BZip2OutputStream.cs">
+      <Link>ICSharpCode.SharpZLib\BZip2OutputStream.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\checksums\Adler32.cs">
+      <Link>ICSharpCode.SharpZLib\Adler32.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\checksums\CRC32.cs">
+      <Link>ICSharpCode.SharpZLib\CRC32.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\checksums\IChecksum.cs">
+      <Link>ICSharpCode.SharpZLib\IChecksum.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\checksums\StrangeCRC.cs">
+      <Link>ICSharpCode.SharpZLib\StrangeCRC.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\core\FileSystemScanner.cs">
+      <Link>ICSharpCode.SharpZLib\FileSystemScanner.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\core\INameTransform.cs">
+      <Link>ICSharpCode.SharpZLib\INameTransform.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\core\IScanFilter.cs">
+      <Link>ICSharpCode.SharpZLib\IScanFilter.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\core\NameFilter.cs">
+      <Link>ICSharpCode.SharpZLib\NameFilter.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\core\PathFilter.cs">
+      <Link>ICSharpCode.SharpZLib\PathFilter.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\core\StreamUtils.cs">
+      <Link>ICSharpCode.SharpZLib\StreamUtils.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\core\WindowsPathUtils.cs">
+      <Link>ICSharpCode.SharpZLib\WindowsPathUtils.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\encryption\PkzipClassic.cs">
+      <Link>ICSharpCode.SharpZLib\PkzipClassic.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\encryption\ZipAESStream.cs">
+      <Link>ICSharpCode.SharpZLib\ZipAESStream.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\encryption\ZipAESTransform.cs">
+      <Link>ICSharpCode.SharpZLib\ZipAESTransform.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\gzip\GZIPConstants.cs">
+      <Link>ICSharpCode.SharpZLib\GZIPConstants.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\gzip\GZipException.cs">
+      <Link>ICSharpCode.SharpZLib\GZipException.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\gzip\GzipInputStream.cs">
+      <Link>ICSharpCode.SharpZLib\GzipInputStream.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\gzip\GzipOutputStream.cs">
+      <Link>ICSharpCode.SharpZLib\GzipOutputStream.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\lzw\LzwConstants.cs">
+      <Link>ICSharpCode.SharpZLib\LzwConstants.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\lzw\LzwException.cs">
+      <Link>ICSharpCode.SharpZLib\LzwException.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\lzw\LzwInputStream.cs">
+      <Link>ICSharpCode.SharpZLib\LzwInputStream.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\Main.cs">
+      <Link>ICSharpCode.SharpZLib\Main.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\SharpZipBaseException.cs">
+      <Link>ICSharpCode.SharpZLib\SharpZipBaseException.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\tar\InvalidHeaderException.cs">
+      <Link>ICSharpCode.SharpZLib\InvalidHeaderException.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\tar\TarArchive.cs">
+      <Link>ICSharpCode.SharpZLib\TarArchive.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\tar\TarBuffer.cs">
+      <Link>ICSharpCode.SharpZLib\TarBuffer.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\tar\TarEntry.cs">
+      <Link>ICSharpCode.SharpZLib\TarEntry.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\tar\TarException.cs">
+      <Link>ICSharpCode.SharpZLib\TarException.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\tar\TarHeader.cs">
+      <Link>ICSharpCode.SharpZLib\TarHeader.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\tar\TarInputStream.cs">
+      <Link>ICSharpCode.SharpZLib\TarInputStream.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\tar\TarOutputStream.cs">
+      <Link>ICSharpCode.SharpZLib\TarOutputStream.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\compression\Deflater.cs">
+      <Link>ICSharpCode.SharpZLib\Deflater.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\compression\DeflaterConstants.cs">
+      <Link>ICSharpCode.SharpZLib\DeflaterConstants.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\compression\DeflaterEngine.cs">
+      <Link>ICSharpCode.SharpZLib\DeflaterEngine.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\compression\DeflaterHuffman.cs">
+      <Link>ICSharpCode.SharpZLib\DeflaterHuffman.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\compression\DeflaterPending.cs">
+      <Link>ICSharpCode.SharpZLib\DeflaterPending.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\compression\Inflater.cs">
+      <Link>ICSharpCode.SharpZLib\Inflater.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\compression\InflaterDynHeader.cs">
+      <Link>ICSharpCode.SharpZLib\InflaterDynHeader.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\compression\InflaterHuffmanTree.cs">
+      <Link>ICSharpCode.SharpZLib\InflaterHuffmanTree.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\compression\PendingBuffer.cs">
+      <Link>ICSharpCode.SharpZLib\PendingBuffer.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\compression\streams\DeflaterOutputStream.cs">
+      <Link>ICSharpCode.SharpZLib\DeflaterOutputStream.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\compression\streams\InflaterInputStream.cs">
+      <Link>ICSharpCode.SharpZLib\InflaterInputStream.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\compression\streams\OutputWindow.cs">
+      <Link>ICSharpCode.SharpZLib\OutputWindow.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\compression\streams\StreamManipulator.cs">
+      <Link>ICSharpCode.SharpZLib\StreamManipulator.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\FastZip.cs">
+      <Link>ICSharpCode.SharpZLib\FastZip.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\IEntryFactory.cs">
+      <Link>ICSharpCode.SharpZLib\IEntryFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\WindowsNameTransform.cs">
+      <Link>ICSharpCode.SharpZLib\WindowsNameTransform.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\ZipConstants.cs">
+      <Link>ICSharpCode.SharpZLib\ZipConstants.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\ZipEntry.cs">
+      <Link>ICSharpCode.SharpZLib\ZipEntry.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\ZipEntryFactory.cs">
+      <Link>ICSharpCode.SharpZLib\ZipEntryFactory.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\ZipException.cs">
+      <Link>ICSharpCode.SharpZLib\ZipException.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\ZipExtraData.cs">
+      <Link>ICSharpCode.SharpZLib\ZipExtraData.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\ZipFile.cs">
+      <Link>ICSharpCode.SharpZLib\ZipFile.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\ZipHelperStream.cs">
+      <Link>ICSharpCode.SharpZLib\ZipHelperStream.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\ZipInputStream.cs">
+      <Link>ICSharpCode.SharpZLib\ZipInputStream.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\ZipNameTransform.cs">
+      <Link>ICSharpCode.SharpZLib\ZipNameTransform.cs</Link>
+    </Compile>
+    <Compile Include="..\icsharpcode-sharpziplib\src\zip\ZipOutputStream.cs">
+      <Link>ICSharpCode.SharpZLib\ZipOutputStream.cs</Link>
+    </Compile>
+    <Compile Include="InfoBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoBox.Designer.cs">
+      <DependentUpon>InfoBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TaskUnZip.cs" />
+    <Compile Include="TaskUnZipUi.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gacutil.exe.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Install_SQL_2014.cmd">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="key.snk" />
+    <Content Include="License.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Un-Install_SQL_2014.cmd">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="InfoBox.resx">
+      <DependentUpon>InfoBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zip_file.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gacutil.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="License.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="zip-file-128.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

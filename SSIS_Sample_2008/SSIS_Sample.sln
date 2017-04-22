@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{D183A3D8-5FD8-494B-B014-37F57B35E655}") = "SSIS_Sample", "SSIS_Sample.dtproj", "{F61B5F0B-2B4C-4C8F-B43E-0D5D3D17C49A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F61B5F0B-2B4C-4C8F-B43E-0D5D3D17C49A}.Development|Default.ActiveCfg = Development
+		{F61B5F0B-2B4C-4C8F-B43E-0D5D3D17C49A}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

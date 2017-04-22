@@ -1,0 +1,118 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{25CFB7B1-E141-487B-913F-8FAEB304B53A}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		TaskUnZip.vsmdi = TaskUnZip.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgettoMultimedia.TaskUnZip_2008", "TaskUnZip_2008\ProgettoMultimedia.TaskUnZip_2008.csproj", "{B6E77166-A974-4714-B5D9-6A4F8769B5F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgettoMultimedia.TaskUnZip.Test", "TestProject\ProgettoMultimedia.TaskUnZip.Test.csproj", "{ECB624CB-E3DA-4944-8D10-3F0EC627EBB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgettoMultimedia.TaskUnZip_2014", "TaskUnZip_2014\ProgettoMultimedia.TaskUnZip_2014.csproj", "{4E9C70A6-B236-402E-B720-E8F7561088EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgettoMultimedia.TaskUnZip_2012", "TaskUnZip_2012\ProgettoMultimedia.TaskUnZip_2012.csproj", "{22022BD6-8F84-4684-9072-D229EED234AA}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ProgettoMultimedia.TaskUnZip_2014.Setup_x86", "TaskUnZip_2014.Setup\TaskUnZip_2014.Setup_x64\TaskUnZip_2014.Setup_x64.Setup.vdproj", "{B56F3AFD-375C-4B2A-8252-537021E7B84A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ProgettoMultimedia.TaskUnZip_2014.Setup_x64", "TaskUnZip_2014.Setup\TaskUnZip_2014.Setup_x86\TaskUnZip_2014.Setup_x86.Setup.vdproj", "{0110CAA0-AF50-4C44-932A-DFBA286DFF54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ssis_test_prj", "ssis_test_prj", "{CD0EE448-378C-403A-BF22-EB8C02B9E3A5}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS_Sample_2012", "SSIS_Sample_2012\SSIS_Sample_2012\SSIS_Sample_2012.dtproj", "{46ED450E-5065-451A-A2D9-05D1FC1D5518}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS_Sample_2014", "SSIS_Sample_2014\SSIS_Sample_2014\SSIS_Sample_2014.dtproj", "{99D4C6D1-72C4-4FEF-BE05-CA3A07556506}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6E77166-A974-4714-B5D9-6A4F8769B5F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E77166-A974-4714-B5D9-6A4F8769B5F9}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E77166-A974-4714-B5D9-6A4F8769B5F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB624CB-E3DA-4944-8D10-3F0EC627EBB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB624CB-E3DA-4944-8D10-3F0EC627EBB7}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB624CB-E3DA-4944-8D10-3F0EC627EBB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E9C70A6-B236-402E-B720-E8F7561088EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E9C70A6-B236-402E-B720-E8F7561088EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E9C70A6-B236-402E-B720-E8F7561088EF}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E9C70A6-B236-402E-B720-E8F7561088EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E9C70A6-B236-402E-B720-E8F7561088EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22022BD6-8F84-4684-9072-D229EED234AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22022BD6-8F84-4684-9072-D229EED234AA}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{22022BD6-8F84-4684-9072-D229EED234AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56F3AFD-375C-4B2A-8252-537021E7B84A}.Debug|Any CPU.ActiveCfg = Debug
+		{B56F3AFD-375C-4B2A-8252-537021E7B84A}.Development|Any CPU.ActiveCfg = Debug
+		{B56F3AFD-375C-4B2A-8252-537021E7B84A}.Development|Any CPU.Build.0 = Debug
+		{B56F3AFD-375C-4B2A-8252-537021E7B84A}.Release|Any CPU.ActiveCfg = Release
+		{B56F3AFD-375C-4B2A-8252-537021E7B84A}.Release|Any CPU.Build.0 = Release
+		{0110CAA0-AF50-4C44-932A-DFBA286DFF54}.Debug|Any CPU.ActiveCfg = Debug
+		{0110CAA0-AF50-4C44-932A-DFBA286DFF54}.Development|Any CPU.ActiveCfg = Debug
+		{0110CAA0-AF50-4C44-932A-DFBA286DFF54}.Development|Any CPU.Build.0 = Debug
+		{0110CAA0-AF50-4C44-932A-DFBA286DFF54}.Release|Any CPU.ActiveCfg = Release
+		{0110CAA0-AF50-4C44-932A-DFBA286DFF54}.Release|Any CPU.Build.0 = Release
+		{46ED450E-5065-451A-A2D9-05D1FC1D5518}.Debug|Any CPU.ActiveCfg = Development
+		{46ED450E-5065-451A-A2D9-05D1FC1D5518}.Development|Any CPU.ActiveCfg = Development
+		{46ED450E-5065-451A-A2D9-05D1FC1D5518}.Development|Any CPU.Build.0 = Development
+		{46ED450E-5065-451A-A2D9-05D1FC1D5518}.Release|Any CPU.ActiveCfg = Development
+		{46ED450E-5065-451A-A2D9-05D1FC1D5518}.Release|Any CPU.Build.0 = Development
+		{99D4C6D1-72C4-4FEF-BE05-CA3A07556506}.Debug|Any CPU.ActiveCfg = Development
+		{99D4C6D1-72C4-4FEF-BE05-CA3A07556506}.Development|Any CPU.ActiveCfg = Development
+		{99D4C6D1-72C4-4FEF-BE05-CA3A07556506}.Development|Any CPU.Build.0 = Development
+		{99D4C6D1-72C4-4FEF-BE05-CA3A07556506}.Release|Any CPU.ActiveCfg = Development
+		{99D4C6D1-72C4-4FEF-BE05-CA3A07556506}.Release|Any CPU.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46ED450E-5065-451A-A2D9-05D1FC1D5518} = {CD0EE448-378C-403A-BF22-EB8C02B9E3A5}
+		{99D4C6D1-72C4-4FEF-BE05-CA3A07556506} = {CD0EE448-378C-403A-BF22-EB8C02B9E3A5}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs02
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TaskUnZip_2008\\ProgettoMultimedia.TaskUnZip_2008.csproj
+		SccProjectName1 = TaskUnZip_2008
+		SccLocalPath1 = TaskUnZip_2008
+		SccProjectUniqueName2 = TaskUnZip_2012\\ProgettoMultimedia.TaskUnZip_2012.csproj
+		SccProjectName2 = TaskUnZip_2012
+		SccLocalPath2 = TaskUnZip_2012
+		SccProjectUniqueName3 = TaskUnZip_2014.Setup\\TaskUnZip_2014.Setup_x64\\TaskUnZip_2014.Setup_x64.Setup.vdproj
+		SccProjectName3 = TaskUnZip_2014.Setup/TaskUnZip_2014.Setup_x64
+		SccLocalPath3 = TaskUnZip_2014.Setup\\TaskUnZip_2014.Setup_x64
+		SccProjectUniqueName4 = TaskUnZip_2014.Setup\\TaskUnZip_2014.Setup_x86\\TaskUnZip_2014.Setup_x86.Setup.vdproj
+		SccProjectName4 = TaskUnZip_2014.Setup/TaskUnZip_2014.Setup_x86
+		SccLocalPath4 = TaskUnZip_2014.Setup\\TaskUnZip_2014.Setup_x86
+		SccProjectUniqueName5 = TaskUnZip_2014\\ProgettoMultimedia.TaskUnZip_2014.csproj
+		SccProjectName5 = TaskUnZip_2014
+		SccLocalPath5 = TaskUnZip_2014
+		SccProjectUniqueName6 = TestProject\\ProgettoMultimedia.TaskUnZip.Test.csproj
+		SccProjectName6 = TestProject
+		SccLocalPath6 = TestProject
+		SccProjectUniqueName7 = SSIS_Sample_2012\\SSIS_Sample_2012\\SSIS_Sample_2012.dtproj
+		SccProjectTopLevelParentUniqueName7 = ProgettoMultimedia.TaskUnZip.sln
+		SccProjectName7 = SSIS_Sample_2012/SSIS_Sample_2012
+		SccLocalPath7 = SSIS_Sample_2012\\SSIS_Sample_2012
+		SccProjectUniqueName8 = SSIS_Sample_2014\\SSIS_Sample_2014\\SSIS_Sample_2014.dtproj
+		SccProjectTopLevelParentUniqueName8 = ProgettoMultimedia.TaskUnZip.sln
+		SccProjectName8 = SSIS_Sample_2014/SSIS_Sample_2014
+		SccLocalPath8 = SSIS_Sample_2014\\SSIS_Sample_2014
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TaskUnZip.vsmdi
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
